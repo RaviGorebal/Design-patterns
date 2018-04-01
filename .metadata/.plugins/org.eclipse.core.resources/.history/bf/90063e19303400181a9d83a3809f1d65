@@ -1,0 +1,14 @@
+package ravi.gorebal;
+
+public class CubeTest {
+
+	
+	@Test
+	test(){
+		
+		JunitTesting junittesting = new JunitTesting();
+		int number = junittesting.cube(3);
+		assertEquals(27,number);
+		
+	}
+}
